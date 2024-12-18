@@ -50,18 +50,21 @@ header p {
     font-size: 1.3em;
 }
 
-nav {
+nav.top-right-nav {
     background-color: #333;
     display: flex;
-    justify-content: center;
-    padding: 12px 0;
-    animation: fadeIn 1s ease-in;
+    justify-content: flex-end;
+    padding: 12px 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 20px;
+    margin: 0 10px;
     font-size: 1.1em;
     padding: 10px 20px;
     transition: background-color 0.3s, color 0.3s;
